@@ -17,3 +17,5 @@ print(My_List[0:4:2])
 #Reverse The List
 print(My_List[::-1])
 
+
+
