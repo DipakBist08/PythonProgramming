@@ -8,5 +8,3 @@ for item in my_list:
     print(counter)  # this print will iterate one by one.
 
 print(counter)  # Display single output.It should be more efficient rather than above print statement
-
-
