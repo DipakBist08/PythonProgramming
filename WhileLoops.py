@@ -1,10 +1,10 @@
-#it will print from 0 to 10.
-i=0
-while i<=10:
+# it will print from 0 to 10.
+i = 0
+while i <= 10:
     print(i)
-    i+=1
+    i += 1
 
-#Will run infinite loop untill the system crash.
+# Will run infinite loop untill the system crash.
 # i =0
 # while i<1:
 #     print(i)
@@ -13,10 +13,12 @@ while i<=10:
 # while True:
 #     input('Say Something: ')
 
-#untill run the program response == bye
+# untill run the program response == bye
 
 while True:
-    response=input('Say Something:')
-    if response=='bye':
+    response = input('Say Something:')
+    if response == 'bye':
         print(response)
         break
+    else:
+        print('Well Done')
