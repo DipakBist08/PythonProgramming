@@ -1,4 +1,4 @@
-# Parameteres are the variable and Arguments are the actual value we provide when we call a function.
+#Parameteres are the variable and Arguments are the actual value we provide when we call a function.
 #We can cay Parameteres are like placeholders and to fill those placeholder we provide arguments.
 
 
