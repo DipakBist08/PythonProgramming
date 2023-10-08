@@ -10,11 +10,13 @@ class PlayerCharacter:
     @classmethod
     def sum(cls,num1,num2):
         return num1 + num2
+
     @staticmethod
-    def num_sum(x,y):
-        return x+y
+    def num_sum1(x,y):
+        return x + y
 
-Player2=PlayerCharacter.sum(3,5)
-Player3=PlayerCharacter.
-print(Player2)
 
+print(PlayerCharacter.sum(2,5))
+print(PlayerCharacter.num_sum1(6,8))
+
+# here we haven't initiation  class without initiated we can call or printout the objects.
