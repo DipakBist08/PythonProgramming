@@ -18,3 +18,16 @@ StudentInfo1(name,age)
 
 
 
+def student(grade,rollnumber):
+    print(f'You are at {grade}th Grade and your rollnumber is {rollnumber}')
+
+Grade=input('Enter Your Grade: ')
+RollNumber=int(input('Enter Your RollNumber: '))
+student(Grade,RollNumber)
+
+def employee(ename,esalary):
+    print(f'Your Name is {ename} and You have {esalary} salary')
+
+Name='Rajesh'
+Salary=4500
+employee(Name,Salary)
