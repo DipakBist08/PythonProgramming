@@ -1,6 +1,6 @@
 class User:
-    def Sign_In(self):
-        print('Logged In Successfully..')
+    def Login(self):
+        print('Logged In Successfully!!!')
 
 
 class Wizard(User):
@@ -8,7 +8,7 @@ class Wizard(User):
         self.name = name
         self.power = power
 
-    def Attack(self):
+    def attack(self):
         print(f'Wizard is attacking with power of {self.power}')
 
 
@@ -17,19 +17,14 @@ class Archer(User):
         self.name = name
         self.num_arrows = num_arrows
 
-    def Attack(self):
-        print(f'The archer is attacking with arrows.Left arrows:{self.num_arrows}')
+    def attack(self):
+        print(f'Archer is attacking with arrows: arrows left: {self.num_arrows}')
 
 
-wiz = Wizard('Kerry', 500)
-arc = Archer('Rosey', 600)
-wiz.Sign_In()
-wiz.Attack()
-arc.Attack()
-print(wiz.name)
-print(wiz.power)
-print(arc.name)
-print(arc.num_arrows)
+wizard1 = Wizard('Marlin', 101)
+archer1 = Archer('Robin', 500)
 
 
-
+wizard1.Login()
+wizard1.attack()
+archer1.attack()
