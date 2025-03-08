@@ -1,3 +1,6 @@
 This is the content file here is a content for append mode.
 Newly added content will be added in the end of this line.
 
+This new line will be append in the end of the file.....This new line will be append in the end of the file.....
+ This is new content for the file.
+This is new content.
