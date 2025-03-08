@@ -1,0 +1,3 @@
+This is the content file here is a content for append mode.
+Newly added content will be added in the end of this line.
+
