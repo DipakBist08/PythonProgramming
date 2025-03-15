@@ -1,1 +1,5 @@
-Hello, This is a test file!
+Hello, This is a test file! which is first line
+This is Line Two added to the file.
+This is third line.
+
+This is appended file to the 'sample.txt' fileThis is appended file to the 'sample.txt' file
