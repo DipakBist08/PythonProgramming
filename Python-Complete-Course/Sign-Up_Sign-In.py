@@ -15,7 +15,7 @@ if choice=="Sign-Up":
     if new_userName in users:
         print("User already exists!!")
     else:
-        new_pass = input("Enter your Password: ")
+        new_pass = input("Set your Password: ")
         users[new_userName]=new_pass
         print("Sign-Up Successfully.")
 
